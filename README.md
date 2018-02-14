@@ -26,3 +26,32 @@ bin/mysqld_safe --user=mysql
 The commands can be used along with preference pane.
 
 Use export PATH=${PATH}:/usr/local/mysql/bin/ to configure path.
+
+
+
+And removing mysql -
+from https://stackoverflow.com/questions/1436425/how-do-you-uninstall-mysql-from-mac-os-x
+
+sudo rm /usr/local/mysql
+
+sudo rm -rf /usr/local/mysql*
+
+sudo rm -rf /Library/StartupItems/MySQLCOM
+
+sudo rm -rf /Library/PreferencePanes/MySQL*
+
+rm -rf ~/Library/PreferencePanes/MySQL*
+
+sudo rm -rf /Library/Receipts/mysql*
+
+sudo rm -rf /Library/Receipts/MySQL*
+
+sudo rm -rf /var/db/receipts/com.mysql.*
+
+sudo rm -rf /var/db/receipts/com.mysql.*
+
+
+
+
+
+
